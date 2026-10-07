@@ -1,0 +1,39 @@
+# Lista base — ajustar a cada proyecto.
+
+# Permisos locales del asistente (propios de cada equipo). Las órdenes /goal y
+# /cierre en .claude/commands/ SÍ se guardan en el historial.
+.claude/settings.local.json
+.claude/worktrees/
+
+# Contraseñas, claves y configuración local — NUNCA versionar
+.env
+.env.*
+*_local.json
+*.key
+*.pem
+
+# Registros de errores y archivos temporales
+logs/
+*.log
+*.bak
+*.tmp
+
+# Archivos compilados o generados automáticamente
+__pycache__/
+*.pyc
+node_modules/
+
+# Bases de datos locales
+*.db
+*.db-shm
+*.db-wal
+
+# Datos reales (agregar aquí cada carpeta o archivo con información
+# confidencial ANTES de copiarlo dentro del proyecto)
+# /datos_reales/
+
+# Cerebro de IA: datos generados y estado local (se rehacen solos)
+cerebro/datos/
+cerebro/estado/
+.claude/settings.respaldo_*.json
+.claude/settings.local.respaldo_*.json
