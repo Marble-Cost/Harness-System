@@ -1,0 +1,58 @@
+{
+  "proyecto": "..",
+  "memoria": "auto",
+  "nombre_nucleo": "",
+  "puerto": 8765,
+  "extensiones": [
+    ".py",
+    ".js",
+    ".ts",
+    ".jsx",
+    ".tsx",
+    ".html",
+    ".css",
+    ".md",
+    ".sql",
+    ".json",
+    ".ps1",
+    ".bat",
+    ".sh"
+  ],
+  "carpetas_excluidas": [
+    ".git",
+    "__pycache__",
+    "node_modules",
+    ".claude",
+    "logs",
+    "AGENTES",
+    "venv",
+    ".venv",
+    "dist",
+    "build",
+    ".codebase-memory"
+  ],
+  "archivos_excluidos": [],
+  "tamano_maximo_kb": 3000,
+  "largo_minimo_nombre_funcion": 6,
+  "etiquetas": {
+    "memoria": [
+      "Segundo cerebro",
+      "Recuerdos y decisiones"
+    ],
+    "(raiz)": [
+      "Raíz del proyecto",
+      "Guías y memoria del proyecto"
+    ]
+  },
+  "ignorar_menciones": [
+    "three.js",
+    "d3.js",
+    "chart.js",
+    "node.js",
+    "vue.js",
+    "next.js"
+  ],
+  "dias_para_viejo": 30,
+  "umbral_parecido": 0.45,
+  "asistente": ""
+}
